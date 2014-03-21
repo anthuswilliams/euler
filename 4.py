@@ -2,7 +2,7 @@
 #
 # Find the largest palindrome made from the product of two 3-digit numbers.
 #
-# SOLUTION: a palindromic number with 2k+1 digits is sum over i from 0 to k, (a_i * 10^i + a_i * 10^(2k -i))
+# SOLUTION: brute force!
 def is_palindromic(n):
     n = str(n)
     for i in range(len(n)):
