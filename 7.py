@@ -10,7 +10,6 @@ import math
 primes_so_far = [2,3]
 
 # find all primes up to n
-# 500th = 3571
 def eratosthenes(n):
   sieve = range(5,n)
   for p in primes_so_far:
